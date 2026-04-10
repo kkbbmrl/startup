@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          path: './AFRIHALI_Pitch_Enhanced.html'
           
       - name: Deploy to GitHub Pages
         id: deployment
